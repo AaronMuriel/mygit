@@ -2,5 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import sys
+import os
 
-print sys.argv[1],sys.argv[2]
+os.mkdir(sys.argv[1])
+os.mkdir(sys.argv[2])
